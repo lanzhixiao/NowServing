@@ -30,7 +30,7 @@ class CustomerCounterTest {
 
     @Test
     void testNextCustomerRollAround() {
-        for(int i = 0; i <CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
+        for(int i = 0; i < CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
               testCounter.nextCustomer();
          }
 
