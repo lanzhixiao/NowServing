@@ -30,10 +30,10 @@ class CustomerCounterTest {
 
     @Test
     void testNextCustomerRollAround() {
-        for(int i = 0; i < CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
+        for(int i = 1; i < CustomerCounter.MAX_CUSTOMER_NUMBER; i++) {
               testCounter.nextCustomer();
          }
 
-        assertEquals(2, testCounter.getNextCustomer());
+        assertEquals(1, testCounter.getNextCustomer());
      }
 }
