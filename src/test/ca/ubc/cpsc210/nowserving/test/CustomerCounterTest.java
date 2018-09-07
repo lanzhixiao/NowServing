@@ -34,6 +34,6 @@ class CustomerCounterTest {
               testCounter.nextCustomer();
          }
 
-        assertEquals(1, testCounter.getNextCustomer());
+        assertEquals(2, testCounter.getNextCustomer());
      }
 }
